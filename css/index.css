@@ -1,0 +1,45 @@
+html{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    /* background-color: #fcdee7; */
+    color: black;
+    /* color: #f59f00; */
+}
+h1, h5{
+    text-align: center;
+    color: #047a90;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+form > input{
+    margin: 10px;
+}
+[type = "submit"]:focus{
+    outline: none;
+    box-shadow: 5px 5px 60px #9c8acf,
+    -5px -5px 60px #f192e9   ;
+}
+[type = "submit"]{
+    background-color: #ff9de7;
+    border: none;
+    letter-spacing:3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: black;
+    font-size: 1rem;
+    width: 80vw;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}

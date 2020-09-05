@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Bible book random generator</title>
+</head>
+
+<body>
+    <marquee>this is a simple program aimed at helping you study. it randomly selects books of the bible for you to read
+        based on your input. <b>PLEASE PRAY AND ASK GOD TO LEAD BEFORE CHOOSING AN OPTION.</b> <span>Shalom!!!</span>
+    </marquee>
+    <h1>Welcome!!!</h1>
+    <h5><i>- Lover of GOD</i></h5>
+    <p>please fill out the form below to help us generate a result</p>
+    <form action="#">
+        <input type="radio" name="testament" id="old-testament"> Old testament<br>
+        <input type="radio" name="testament" id="new-testament"> New testament<br>
+        <input type="radio" name="testament" id="neutral"> You help me choose <br>
+        <center><input type="submit" value="SUBMIT" onclick="getTestament();"></center>
+    </form>
+    <div id="result-panel">
+        <p>please read : <span id="result"></span> <span id="chapter"></span></p>
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
